@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Homemade+Apple&family=Island+Moments&family=Sacramento&family=Yellowtail&display=swap");
+ * {
+
+    font-family: 'Cookie', cursive;
+}
+
+body {
+    background-color: lightsalmon
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    display: flex;
+}
+
+.groceries {
+    border: 1px solid black;
+    width: 650px;
+    min-height: 95vh;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 8px 7px 10px 5px rgb(97, 96, 96);
+}
+
+.groceries h1 {
+    font-size: 55px;
+    color: darkblue;
+}
+
+.groceries i {
+    font-size: 30px;
+    color: darkblue;
+    cursor: pointer;
+}
+
+.groceries input {
+    outline: 0;
+    border: none;
+    border-bottom: 3px solid black;
+    font-size: 30px;
+}
+
+#basket {
+    margin: 50px 100px;
+    font-size: 2.3rem;
+    list-style: none;
+}
+
+button {
+    font-size: 20px;
+    /* margin: 20px; */
+    padding: 5px;
+    width: 80px;
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+li:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+@media (max-width:500px) {
+    .groceries {
+        width: 357px;
+    }
+
+    .groceries h1 {
+        font-size: 50px;
+    }
+
+    .groceries i {
+        font-size: 25px;
+    }
+
+    .groceries input {
+        font-size: 23px;
+    }
+
+    button {
+        padding: 4px;
+        width: 60px;
+    }
+
+    #basket {
+        margin: 37px 24px;
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:350px) {
+    .groceries {
+        width: 200px;
+    }
+
+    .groceries h1 {
+        font-size: 30px;
+    }
+
+    .groceries i {
+        font-size: 15px;
+    }
+
+    .groceries input {
+        font-size: 13px;
+    }
+
+    button {
+        margin: 0px;
+        padding: 0px 5px;
+        width: 38px;
+        font-size: 18px;
+    }
+
+    #basket {
+        margin: 0px 0px;
+        font-size: 15px;
+    }
+}
